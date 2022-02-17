@@ -1,0 +1,12 @@
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.exe
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.deps.json
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.runtimeconfig.json
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.runtimeconfig.dev.json
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.dll
+D:\Thashreefah M\FrequencyIS\bin\Debug\netcoreapp3.1\FrequencyIS.pdb
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.AssemblyInfoInputs.cache
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.AssemblyInfo.cs
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.csproj.CoreCompileInputs.cache
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.dll
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.pdb
+D:\Thashreefah M\FrequencyIS\obj\Debug\netcoreapp3.1\FrequencyIS.genruntimeconfig.cache
