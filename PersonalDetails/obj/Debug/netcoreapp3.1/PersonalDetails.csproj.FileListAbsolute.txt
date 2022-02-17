@@ -1,0 +1,13 @@
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.csprojAssemblyReference.cache
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.AssemblyInfoInputs.cache
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.AssemblyInfo.cs
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.csproj.CoreCompileInputs.cache
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.exe
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.deps.json
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.runtimeconfig.json
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.runtimeconfig.dev.json
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.dll
+D:\Thashreefah M\PersonalDetails\bin\Debug\netcoreapp3.1\PersonalDetails.pdb
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.dll
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.pdb
+D:\Thashreefah M\PersonalDetails\obj\Debug\netcoreapp3.1\PersonalDetails.genruntimeconfig.cache
