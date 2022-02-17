@@ -1,16 +1,16 @@
 # .net
 
-using System;
+using System;<br>
 
-namespace Exercises
-{
-    class BinaryTriangle
-    {
-        static void Main(string[] args)
-        {
-            int number, digit = 1;
-            Console.Write("\nEnter the number of lines:");
-            number = Convert.ToInt32(Console.ReadLine());
+namespace Exercises<br>
+{<br>
+    class BinaryTriangle<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int number, digit = 1;<br>
+            Console.Write("\nEnter the number of lines:");<br>
+            number = Convert.ToInt32(Console.ReadLine());<br>
 
             for (int i = 1; i <= number; i++)
             {
@@ -31,4 +31,6 @@ namespace Exercises
 
 
 OUTPUT:
+<br>
+<br>
 ![image](https://user-images.githubusercontent.com/97940475/154415939-8376da3c-f862-42ba-be3e-037a2c9fc26e.png)
