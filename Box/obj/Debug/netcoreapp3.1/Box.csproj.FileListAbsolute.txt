@@ -1,0 +1,12 @@
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.exe
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.deps.json
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.runtimeconfig.json
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.runtimeconfig.dev.json
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.dll
+D:\Thashreefah M\Box\bin\Debug\netcoreapp3.1\Box.pdb
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.AssemblyInfoInputs.cache
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.AssemblyInfo.cs
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.csproj.CoreCompileInputs.cache
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.dll
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.pdb
+D:\Thashreefah M\Box\obj\Debug\netcoreapp3.1\Box.genruntimeconfig.cache
