@@ -25,6 +25,7 @@ namespace Exercises<br>
                 }
                 Console.Write("\n");
             }
+            
         }
     }
 }
