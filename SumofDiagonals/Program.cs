@@ -11,7 +11,7 @@ namespace Exercises
             Console.WriteLine("\n--------SUM OF DIAGONAL OF MATRIX------\n");
             Console.Write("\nEnter the number of rows:");
             MaxRow = Convert.ToInt32(Console.ReadLine());
-            Console.Write("\nEnter the numbers of columns:");
+            Console.Write("\nEnter the number of columns:");
             MaxCol = Convert.ToInt32(Console.ReadLine());
             if (MaxRow != MaxCol)
             {
