@@ -1,0 +1,12 @@
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.AssemblyInfoInputs.cache
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.AssemblyInfo.cs
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.csproj.CoreCompileInputs.cache
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.exe
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.deps.json
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.runtimeconfig.json
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.runtimeconfig.dev.json
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.dll
+D:\Thashreefah M\SumofDiagonals\bin\Debug\netcoreapp3.1\SumofDiagonals.pdb
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.dll
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.pdb
+D:\Thashreefah M\SumofDiagonals\obj\Debug\netcoreapp3.1\SumofDiagonals.genruntimeconfig.cache
