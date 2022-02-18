@@ -263,7 +263,7 @@ namespace Exercises<br>
 }
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97940475/154636225-2c34682f-8f1d-4a6a-80df-5be27546d7e2.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/154637878-56fecc75-5864-4c40-b430-9d7d79dcad67.png)<br>
 
     
 
