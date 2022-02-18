@@ -1,32 +1,35 @@
 # .net
 
-using System;<br>
+using System;
 
-namespace Exercises<br>
-{<br>
-    class BinaryTriangle<br>
-    {<br>
-        static void Main(string[] args)<br>
-        {<br>
+namespace Exercises
+{
+
+    class BinaryTriangle
+    {
+        static void Main(string[] args)
+        {
             int number, digit = 1;<br>
-            Console.Write("\nEnter the number of lines:");<br>
-            number = Convert.ToInt32(Console.ReadLine());<br>
-            for (int i = 1; i <= number; i++)<br>
-            {<br>
-                for (int space = number - i; space > 0; space--)<br>
-                {<br>
-                    Console.Write(" ");<br>
-                }<br>
-                for (int j = 0; j < i; j++)<br>
-                {<br>
-                    Console.Write(digit + " ");<br>
-                    digit = (digit == 1) ? 0 : 1;<br>
-                }<br>
-                Console.Write("\n");<br>
-            }<br>
-        }<br>
-    }<br>
-}<br>
+            Console.Write("\nEnter the number of lines:");
+            number = Convert.ToInt32(Console.ReadLine());
+            
+            for (int i = 1; i <= number; i++)
+            {
+                for (int space = number - i; space > 0; space--)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(digit + " ");
+                    digit = (digit == 1) ? 0 : 1;
+                }
+                Console.Write("\n");
+            }
+            
+        }
+    }
+}
 
 OUTPUT:
 <br>
@@ -75,11 +78,11 @@ namespace Exercises<br>
     }<br>
 }<br>
 
-OUTPUT:
-<br>
-<br>
-![image](https://user-images.githubusercontent.com/97940475/154425518-d110acb3-9901-4fb7-bd1b-4bed4f611d6c.png)
-<br>
+OUTPUT:<br><br>
+![image](https://user-images.githubusercontent.com/97940475/154425518-d110acb3-9901-4fb7-bd1b-4bed4f611d6c.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/154627211-6dc00b0e-3d74-4594-9fb8-8f98fd976e87.png)<br>
+
+
 
 
 
