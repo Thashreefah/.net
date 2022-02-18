@@ -189,7 +189,7 @@ namespace Exercises
         }
     }
     
-OUTPUT:
+OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154632315-63f1fa9d-4728-45d4-b717-fdc4a4cadfb5.png)<br>
 
 
