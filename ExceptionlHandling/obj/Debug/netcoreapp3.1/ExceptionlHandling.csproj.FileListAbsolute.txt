@@ -1,0 +1,12 @@
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.exe
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.deps.json
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.runtimeconfig.json
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.dll
+C:\Users\ADMIN\source\repos\ExceptionlHandling\bin\Debug\netcoreapp3.1\ExceptionlHandling.pdb
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.dll
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.pdb
+C:\Users\ADMIN\source\repos\ExceptionlHandling\obj\Debug\netcoreapp3.1\ExceptionlHandling.genruntimeconfig.cache
