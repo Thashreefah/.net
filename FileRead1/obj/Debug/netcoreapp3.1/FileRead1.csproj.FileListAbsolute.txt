@@ -1,0 +1,13 @@
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.exe
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.deps.json
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.runtimeconfig.json
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.runtimeconfig.dev.json
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.dll
+D:\Thashreefah M\FileRead1\bin\Debug\netcoreapp3.1\FileRead1.pdb
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.csprojAssemblyReference.cache
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.AssemblyInfoInputs.cache
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.AssemblyInfo.cs
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.csproj.CoreCompileInputs.cache
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.dll
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.pdb
+D:\Thashreefah M\FileRead1\obj\Debug\netcoreapp3.1\FileRead1.genruntimeconfig.cache
