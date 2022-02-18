@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction.csproj", "{328D3D33-6011-48BA-A944-47C4DA11AC30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{328D3D33-6011-48BA-A944-47C4DA11AC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328D3D33-6011-48BA-A944-47C4DA11AC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328D3D33-6011-48BA-A944-47C4DA11AC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328D3D33-6011-48BA-A944-47C4DA11AC30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {249A6895-FA83-4D6A-A358-D5A7165B21B5}
+	EndGlobalSection
+EndGlobal
