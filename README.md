@@ -74,7 +74,7 @@ namespace Exercises<br>
                 Console.WriteLine("\nThe numbers {0} and {1} are not amicable.", num1, num2);
             }
         }
-    }
+    }  
 }
 
 OUTPUT:<br>
@@ -82,9 +82,9 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154627211-6dc00b0e-3d74-4594-9fb8-8f98fd976e87.png)<br>
 
 3)c# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
-using System;<br>
+using System;
 
-namespace Exercises
+namespace Exercises<br>
 {
 
     class PersonalDetails
@@ -187,10 +187,87 @@ namespace Exercises
 
             }
         }
-    }
+}
     
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154632315-63f1fa9d-4728-45d4-b717-fdc4a4cadfb5.png)<br>
+
+4)C# program to create a grey Code.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class GrayCode
+    {
+        static int getGray(int n)
+        {
+            return n ^ (n >> 1);
+        }
+        static void Main(string[] args)
+        {
+            int InputNum, GrayNum;
+            Console.Write("\nEnter the decimal number:");
+            InputNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nBinary equivalent of {0}:{1}", InputNum, Convert.ToString(InputNum, 2));
+            GrayNum = getGray(InputNum);
+            Console.WriteLine("\nGray Code equivalent of {0}:{1}", InputNum, Convert.ToString(GrayNum, 2));
+        }
+    } 
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/154635295-6b3b5acd-63e2-429c-a54c-475eae1e002c.png)<br>
+
+5)C# program to Calculate volume of 2 boxes and find the resultant volume after addition of 2 boxes by implementing operator overloading.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class Box
+    {
+        float width;
+        float height;
+        float length;
+        public float Volume
+        {
+            get { return width * height * length; }
+        }
+        public Box(float width, float height, float length)
+        {
+            this.width = width;
+            this.height = height;
+            this.length = length;
+        }
+        public static float operator +(Box box1, Box box2)
+        {
+            return box1.Volume + box2.Volume;
+        }
+        public override string ToString()
+        {
+            return "box with width" + width + ",height" + height + "and length" + length;
+        }
+    }
+        class OperatorOverloading
+        {
+            public static void Main()
+            {
+                Box box1 = new Box(10, 20, 30);
+                Box box2 = new Box(25, 32, 15);
+                Console.WriteLine("Volume of {0} is:{1}", box1, box1.Volume);
+                Console.WriteLine("Volume of {0} is:{1}", box2, box2.Volume);
+                Console.WriteLine("Volume after adding boxes:{0}", box1 + box2);
+            }
+        }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/154636225-2c34682f-8f1d-4a6a-80df-5be27546d7e2.png)<br>
+
+    
+
+
 
 
 
