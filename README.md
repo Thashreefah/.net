@@ -1,5 +1,5 @@
 # .net
-
+1)C# program to print a Binary Triangle.<br>
 using System;
 
 namespace Exercises<br>
@@ -34,7 +34,7 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154415939-8376da3c-f862-42ba-be3e-037a2c9fc26e.png)<br>
 
-
+2)C# program to check whether the entered number is an Amicable Number or Not.<br>
 using System;
 
 namespace Exercises<br>
@@ -81,6 +81,120 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154425518-d110acb3-9901-4fb7-bd1b-4bed4f611d6c.png)<br>
 ![image](https://user-images.githubusercontent.com/97940475/154627211-6dc00b0e-3d74-4594-9fb8-8f98fd976e87.png)<br>
 
+3)c# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
+using System;<br>
+
+namespace Exercises
+{
+
+    class PersonalDetails
+    {
+        string name;
+        int age;
+        string gender;
+        public PersonalDetails(string name, int age, string gender)
+        {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+        }
+        public virtual void Display()
+        {
+            Console.WriteLine("\n..........PERSONAL DETAILS..........\n");
+            Console.WriteLine("Name    :" + name);
+            Console.WriteLine("Age     :" + age);
+            Console.WriteLine("Gender  :" + gender);
+        }
+    }
+    class CourseDetails : PersonalDetails
+    {
+        int regNo;
+        string course;
+        int semester;
+        public CourseDetails(string name, int age, string gender, int regNo, string course, int semester) : base(name, age, gender)
+        {
+            this.regNo = regNo;
+            this.course = course;
+            this.semester = semester;
+        }
+        public override void Display()
+        {
+            base.Display();
+            Console.WriteLine("\n..........COURSE DETAILS..........\n");
+            Console.WriteLine("Register Number    :" + regNo);
+            Console.WriteLine("Course             :" + course);
+            Console.WriteLine("Semester           :" + semester);
+
+        }
+    }
+
+    class MarksDetails : CourseDetails
+    {
+        int[] marks = new int[5];
+        int total;
+        float average;
+        string grade;
+        int flagFail;
+        public MarksDetails(String name, int age, string gender, int regNo, string course, int semester, int[] marks) : base(name, age, gender, regNo, course, semester)
+        {
+            total = 0;
+            
+            for (int i = 0; i < 5; i++)
+            {
+                this.marks[i] = marks[i];
+                total += marks[i];
+                if (marks[i] < 35)
+                {
+                    flagFail = 1;
+                }
+            }
+            Calculate();
+        }
+        private void Calculate()
+        {
+            average = total / 5;
+            if (flagFail == 1 || average < 40)
+                grade = "Fail";
+            else if (average >= 70)
+                grade = "Distinction";
+            else if (average >= 60)
+                grade = "First Class";
+            else if (average >= 50)
+                grade = "Second Class";
+            else
+                grade = "Pass Class";
+        }
+        public override void Display()
+        {
+            base.Display();
+                Console.WriteLine("\n..........MARKS DETAILS..........\n");
+                Console.Write("Marks in 5 subjects:");
+                for (int i = 0; i < 5; i++)
+                    Console.Write(marks[i] + " ");
+                Console.WriteLine();
+                Console.WriteLine("Total      :" + total);
+                Console.WriteLine("Average    :" + average);
+                Console.WriteLine("Grade      :" + grade);
+
+            }
+        }
+        class MultiLevel
+        {
+            public static void Main(string[] args)
+            {
+                MarksDetails Student1 = new MarksDetails("Abjhijith", 22, "Male", 20190001, "MCA", 5, new int[] { 77, 80, 98, 95, 90 });
+                Student1.Display();
+
+            }
+        }
+    }
+    
+OUTPUT:
+![image](https://user-images.githubusercontent.com/97940475/154632315-63f1fa9d-4728-45d4-b717-fdc4a4cadfb5.png)<br>
+
+
+
+ 
 
 
 
