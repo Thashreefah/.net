@@ -1,0 +1,12 @@
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.exe
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.deps.json
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.runtimeconfig.json
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.runtimeconfig.dev.json
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.dll
+D:\Thashreefah M(.NET)\Swap\bin\Debug\netcoreapp3.1\Swap.pdb
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.AssemblyInfoInputs.cache
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.AssemblyInfo.cs
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.csproj.CoreCompileInputs.cache
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.dll
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.pdb
+D:\Thashreefah M(.NET)\Swap\obj\Debug\netcoreapp3.1\Swap.genruntimeconfig.cache
