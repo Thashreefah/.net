@@ -522,8 +522,8 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156512569-ea5f89ee-833b-4d98-933c-96923a28a2f1.png)<br>
 
-14)C# program to generate register number automatically for 100 students using static constructor.
-using System;<br>
+14)C# program to generate register number automatically for 100 students using static constructor.<br>
+using System;
 
 namespace Exercises<br>
 {
@@ -561,6 +561,7 @@ using System;
 
 namespace Exercises<br>
 {
+
     class FrequencyIS
     {
     
@@ -590,10 +591,10 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156513498-c550351c-484f-4e76-af6c-d44c9fdcc429.png)<br>
 
 16)C# program that benchmarks 2D,jagged array allocation.<br>
-using System;
+using System;<br>
 using System.Diagnostics;
 
-namespace Exercises
+namespace Exercises<br>
 {
 
     class BenchmarkAllocation
@@ -701,7 +702,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156514701-169831ff-df47-41d0-95eb-9d975e7dc3ca.png)<br>
 
 18)C# program to create a file,check the existence of a file and read the content of the file.<br>
-using System;
+using System;<br>
 using System.IO;
 
 namespace Exercises<br>
