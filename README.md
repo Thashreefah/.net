@@ -120,11 +120,38 @@ namespace Exercises
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156509481-bd1ba284-e7f1-4414-b00f-62db37bce03c.png)<br>
 
-5)Write a C# program to check whether the given element is Armstrong or not.
+5)Write a C# program to check whether the given element is Armstrong or not.<br>
+using System;
 
+namespace Exercises
+{
+    class Armstrong
+    {
+        static void Main(string[] args)
+        {
+            int n, r, sum = 0, temp;
+            Console.Write("Enter the Number=");
+            n = int.Parse(Console.ReadLine());
+            temp = n;
+            while (n > 0)
+            {
+                r = n % 10;
+                sum = sum + (r * r * r);
+                n = n / 10;
+            }
+            if (temp == sum)
+                Console.Write("Armstrong Number");
+            else
+                Console.Write("Not Armstrong Number");
+        }
+    }
+}
 
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156510060-2215a164-8abc-4f12-9217-94506a472d57.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/156510196-2f5c2c79-905d-43eb-a7ce-d4a24c6db184.png)<br>
 
-
+6)Write a C# program to reverse given number.<br>
 
 8)C# program to print a Binary Triangle.<br>
 using System;
