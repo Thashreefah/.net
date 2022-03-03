@@ -156,7 +156,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156510060-2215a164-8abc-4f12-9217-94506a472d57.png)<br>
 ![image](https://user-images.githubusercontent.com/97940475/156510196-2f5c2c79-905d-43eb-a7ce-d4a24c6db184.png)<br>
 
-6)Write a C# program to reverse given number.<br>
+6)Write a C# program to find the sum of digits.<br>
 using System;
 
 namespace Exercises<br>
@@ -185,6 +185,32 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156510932-61989d3d-a02d-47a2-96a5-0162dab1f62f.png)<br>
 
 7)Write a C# program to reverse given number.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class Reverse
+    {
+        static void Main(string[] args)
+        {
+            int n, reverse = 0, rem;
+            Console.Write("Enter a number:");
+            n = int.Parse(Console.ReadLine());
+            
+            while(n!=0)
+            {
+                rem = n % 10;
+                reverse = reverse*10 + rem;
+                n /= 10;
+            }
+            Console.Write("Reversed Number:" + reverse);
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156511532-c8a227e7-2768-4fea-9788-160601ff810c.png)<br>
 
 8)C# program to print a Binary Triangle.<br>
 using System;
