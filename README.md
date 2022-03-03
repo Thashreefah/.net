@@ -590,7 +590,61 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156513498-c550351c-484f-4e76-af6c-d44c9fdcc429.png)<br>
 
 16)C# program that benchmarks 2D,jagged array allocation.<br>
+using System;
+using System.Diagnostics;
 
+namespace Exercises
+{
+
+    class BenchmarkAllocation
+    {
+        const int _max = 100000;
+        static void Main(string[] args)
+        {
+            var Arr2D = new int[100, 100];
+            var ArrJagged = new int[100][];
+            for(int i=0;i<100;i++)
+            {
+                ArrJagged[i] = new int[100];
+            }
+            var Stopwatch2D = Stopwatch.StartNew();
+            
+            for (int i = 0; i < _max; i++)
+            {
+                for (int j = 0; j < 100; j++)
+                {
+                    for (int k = 0; k < 100; k++)
+                    {
+                        Arr2D[j, k] = k;
+                    }
+                }
+            }
+            Stopwatch2D.Stop();
+            var StopwatchJagged = Stopwatch.StartNew();
+            
+            for (int i = 0; i < _max; i++)
+            {
+                for (int j = 0; j < 100; j++)
+                {
+                    for (int k = 0; k < 100; k++)
+                    {
+                        ArrJagged[j][k] = k;
+                    }
+                }
+            }
+            StopwatchJagged.Stop();
+            Console.Write("\nTime taken for allocation in case of 2D array:");
+            Console.WriteLine(Stopwatch2D.Elapsed.TotalMilliseconds+"milliseconds");
+            Console.Write("\nTime taken for allocation in case of Jagged array:");
+            Console.WriteLine(StopwatchJagged.Elapsed.TotalMilliseconds + "milliseconds");
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156513900-608e4216-5a95-4d71-97aa-bbf4ca0c907b.png)<br>
+
+17)C# program to find the sum of the values on Diagonal of the Matrix.<br>
 
  
 
