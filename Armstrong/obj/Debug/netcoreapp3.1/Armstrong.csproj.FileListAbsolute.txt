@@ -1,0 +1,13 @@
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.exe
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.deps.json
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.runtimeconfig.json
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.runtimeconfig.dev.json
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.dll
+D:\Thashreefah M(.NET)\Armstrong\bin\Debug\netcoreapp3.1\Armstrong.pdb
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.csprojAssemblyReference.cache
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.AssemblyInfoInputs.cache
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.AssemblyInfo.cs
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.csproj.CoreCompileInputs.cache
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.dll
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.pdb
+D:\Thashreefah M(.NET)\Armstrong\obj\Debug\netcoreapp3.1\Armstrong.genruntimeconfig.cache
