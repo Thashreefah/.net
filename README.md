@@ -29,6 +29,9 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156505831-2f26bc2d-66b5-4ad3-a4f6-791d3b1604fd.png)<br>
 
+2)Write a C# program to check prime number.<br>
+
+
 1)C# program to print a Binary Triangle.<br>
 using System;
 
