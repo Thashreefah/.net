@@ -523,7 +523,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156512569-ea5f89ee-833b-4d98-933c-96923a28a2f1.png)<br>
 
 14)C# program to generate register number automatically for 100 students using static constructor.
-using System;
+using System;<br>
 
 namespace Exercises<br>
 {
@@ -556,9 +556,40 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156513070-8abe00c2-7e65-44f4-92a7-0509dcf28b7a.png)<br>
 
-15)C# program to find the Frequency of the word "is" in a given sentence.
+15)C# program to find the Frequency of the word "is" in a given sentence.<br>
+using System;
 
+namespace Exercises<br>
+{
+    class FrequencyIS
+    {
+    
+        static void Main(string[] args)
+        {
+            int count = 0;
+            string inputString;
+            Console.WriteLine("\n-------------Frequency of word 'is'----------");
+            Console.Write("\nEnter the input string:");
+            inputString = Console.ReadLine();
+            char[] separator = { ',', ' ', '.', '!', '\n' };
+            string testString = inputString.ToLower();
+            String[] outcomes = testString.Split(separator);
+            
+            foreach (String s in outcomes)
+            {
+                Console.WriteLine(s);
+                if (s == "is")
+                    count++;
+            }
+            Console.WriteLine("\nNumber of 'is' in '" + inputString + "' is:" + count);
+        }
+    }
+}
 
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156513498-c550351c-484f-4e76-af6c-d44c9fdcc429.png)<br>
+
+16)C# program that benchmarks 2D,jagged array allocation.<br>
 
 
  
