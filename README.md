@@ -478,6 +478,8 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154637878-56fecc75-5864-4c40-b430-9d7d79dcad67.png)<br>
 
+13)C# program to Implement principles of Delegates (Converting input string to uppercase first,last and entire string)<br>
+
     
 
 
