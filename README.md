@@ -1,5 +1,33 @@
 # .net
 1)Write a C# program to print fibonacci series without using recursion and using recursion.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class Fibonacci
+    {
+        static void Main(string[] args)
+        {
+            int n1 = 0, n2 = 1, n3, i, number;
+            Console.Write("Enter the number of elements:");
+            number = int.Parse(Console.ReadLine());
+            Console.Write(n1 + " " + n2 + " ");
+            
+            for (i = 2; i < number; ++i)
+            {
+                n3 = n1 + n2;
+                Console.Write(n3+" ");
+                n1 = n2;
+                n2 = n3;
+            }
+
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156505831-2f26bc2d-66b5-4ad3-a4f6-791d3b1604fd.png)<br>
 
 1)C# program to print a Binary Triangle.<br>
 using System;
