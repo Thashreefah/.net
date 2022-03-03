@@ -68,6 +68,7 @@ using System;
 
 namespace Exercises<br>
 {
+
     class Palindrome
     {
     
@@ -99,8 +100,9 @@ OUTPUT:<br>
 4)Write a C# program to print factorial of a number.<br>
 using System;
 
-namespace Exercises
+namespace Exercises<br>
 {
+
     class Factorial
     {
         static void Main(string[] args)
@@ -108,6 +110,7 @@ namespace Exercises
             int i, fact = 1, number;
             Console.Write("Enter any Number:");
             number = int.Parse(Console.ReadLine());
+            
             for(i=1;i<=number;i++)
             {
                 fact = fact * i;
@@ -123,8 +126,9 @@ OUTPUT:<br>
 5)Write a C# program to check whether the given element is Armstrong or not.<br>
 using System;
 
-namespace Exercises
+namespace Exercises<br>
 {
+
     class Armstrong
     {
         static void Main(string[] args)
@@ -133,6 +137,7 @@ namespace Exercises
             Console.Write("Enter the Number=");
             n = int.Parse(Console.ReadLine());
             temp = n;
+            
             while (n > 0)
             {
                 r = n % 10;
@@ -152,6 +157,34 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156510196-2f5c2c79-905d-43eb-a7ce-d4a24c6db184.png)<br>
 
 6)Write a C# program to reverse given number.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class Sum
+    {
+        static void Main(string[] args)
+        {
+            int n, sum = 0, m;
+            Console.Write("Enter a number:");
+            n = int.Parse(Console.ReadLine());
+            
+            while(n>0)
+            {
+                m = n % 10;
+                sum = sum + m;
+                n = n / 10;
+            }
+            Console.Write("Sum is=" + sum);
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156510932-61989d3d-a02d-47a2-96a5-0162dab1f62f.png)<br>
+
+7)Write a C# program to reverse given number.<br>
 
 8)C# program to print a Binary Triangle.<br>
 using System;
