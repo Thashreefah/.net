@@ -30,9 +30,43 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156505831-2f26bc2d-66b5-4ad3-a4f6-791d3b1604fd.png)<br>
 
 2)Write a C# program to check prime number.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class PrimeNumber
+    {
+        static void Main(string[] args)
+        {
+            int n, i, m = 0, flag = 0;
+            Console.Write("Enter the Number to check Prime:");
+            n = int.Parse(Console.ReadLine());
+            m = n / 2;
+            
+            for (i = 2; i <= m; i++)
+            {
+                if (n % i == 0)
+                {
+                    Console.Write("Number is not Prime.");
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 0)
+                Console.Write("Number is Prime.");
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156507398-309d6fd1-b81a-4979-874a-c896e0a7dfaa.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/156507488-00d6461c-3950-40fd-ab25-2b6802477859.png)<br>
+
+3)Write a C# program to check palindrome number.<br>
 
 
-1)C# program to print a Binary Triangle.<br>
+8)C# program to print a Binary Triangle.<br>
 using System;
 
 namespace Exercises<br>
@@ -67,7 +101,7 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154415939-8376da3c-f862-42ba-be3e-037a2c9fc26e.png)<br>
 
-2)C# program to check whether the entered number is an Amicable Number or Not.<br>
+9)C# program to check whether the entered number is an Amicable Number or Not.<br>
 using System;
 
 namespace Exercises<br>
@@ -114,7 +148,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154425518-d110acb3-9901-4fb7-bd1b-4bed4f611d6c.png)<br>
 ![image](https://user-images.githubusercontent.com/97940475/154627211-6dc00b0e-3d74-4594-9fb8-8f98fd976e87.png)<br>
 
-3)c# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
+10)c# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
 using System;
 
 namespace Exercises<br>
@@ -225,7 +259,7 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154632315-63f1fa9d-4728-45d4-b717-fdc4a4cadfb5.png)<br>
 
-4)C# program to create a grey Code.<br>
+11)C# program to create a grey Code.<br>
 using System;
 
 namespace Exercises<br>
@@ -252,7 +286,7 @@ namespace Exercises<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154635295-6b3b5acd-63e2-429c-a54c-475eae1e002c.png)<br>
 
-5)C# program to Calculate volume of 2 boxes and find the resultant volume after addition of 2 boxes by implementing operator overloading.<br>
+12)C# program to Calculate volume of 2 boxes and find the resultant volume after addition of 2 boxes by implementing operator overloading.<br>
 using System;
 
 namespace Exercises<br>
