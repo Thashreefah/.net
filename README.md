@@ -97,6 +97,33 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156508220-20215039-921b-4161-926b-983137ebfdc2.png)<br>
 
 4)Write a C# program to print factorial of a number.<br>
+using System;
+
+namespace Exercises
+{
+    class Factorial
+    {
+        static void Main(string[] args)
+        {
+            int i, fact = 1, number;
+            Console.Write("Enter any Number:");
+            number = int.Parse(Console.ReadLine());
+            for(i=1;i<=number;i++)
+            {
+                fact = fact * i;
+            }
+            Console.Write("Factorial of " + number + " is:" + fact);
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156509481-bd1ba284-e7f1-4414-b00f-62db37bce03c.png)<br>
+
+5)Write a C# program to check whether the given element is Armstrong or not.
+
+
+
 
 
 8)C# program to print a Binary Triangle.<br>
