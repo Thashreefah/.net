@@ -523,7 +523,40 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156512569-ea5f89ee-833b-4d98-933c-96923a28a2f1.png)<br>
 
 14)C# program to generate register number automatically for 100 students using static constructor.
+using System;
 
+namespace Exercises<br>
+{
+
+    class RegisterNum
+    {
+        int regNo;
+        static int startNum;
+        static RegisterNum()
+        {
+            startNum = 20210000;
+        }
+        RegisterNum()
+        {
+            regNo = ++startNum;
+        }
+        public static void Main(string[] args)
+        {
+            for(int i=0;i<100;i++)
+            {
+                RegisterNum Student = new RegisterNum();
+                Console.WriteLine("student {0}:{1}", i + 1, Student.regNo);
+
+            }
+        }
+
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156513070-8abe00c2-7e65-44f4-92a7-0509dcf28b7a.png)<br>
+
+15)C# program to find the Frequency of the word "is" in a given sentence.
 
 
 
