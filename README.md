@@ -294,7 +294,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/154425518-d110acb3-9901-4fb7-bd1b-4bed4f611d6c.png)<br>
 ![image](https://user-images.githubusercontent.com/97940475/154627211-6dc00b0e-3d74-4594-9fb8-8f98fd976e87.png)<br>
 
-10)c# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
+10)C# program to illustrate Multilevel Inheritance with virtual Methods(displaying student details).<br>
 using System;
 
 namespace Exercises<br>
