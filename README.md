@@ -645,8 +645,64 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156513900-608e4216-5a95-4d71-97aa-bbf4ca0c907b.png)<br>
 
 17)C# program to find the sum of the values on Diagonal of the Matrix.<br>
+using System;
 
- 
+namespace Exercises<br>
+{
+
+    class SumofDiagonals
+    {
+        static void Main(string[] args)
+        {
+            int MaxRow, MaxCol, Sum = 0;
+            int[,] Matrix;
+            Console.WriteLine("\n--------SUM OF DIAGONAL OF MATRIX------\n");
+            Console.Write("\nEnter the number of rows:");
+            MaxRow = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\nEnter the number of columns:");
+            MaxCol = Convert.ToInt32(Console.ReadLine());
+            if (MaxRow != MaxCol)
+            {
+                Console.WriteLine("\nThe Dimensional entered are not of Square Matrix");
+                Console.WriteLine("\nExiting the Program");
+                return;
+            }
+            Matrix = new int[MaxRow, MaxCol];
+            
+            for (int i = 0; i < MaxRow; i++)
+            {
+                for (int j = 0; j < MaxCol; j++)
+                {
+                    Console.Write("\nEnter the ({0},{1})th element of the matrix:", (i + 1), (j + 1));
+                    Matrix[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            Console.WriteLine("\nThe entered Matrix is:");
+            
+            for (int i = 0; i < MaxRow; i++)
+            {
+                for (int j = 0; j < MaxCol; j++)
+                {
+                    Console.Write(" " + Matrix[i,j]);
+            if (i==j)
+                {
+                    Sum += Matrix[i,j];
+                }
+        }
+        Console.WriteLine();
+            }
+            Console.WriteLine("\nThe Sum of Diagonal is:" + Sum);
+      }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156514596-64b0e219-8326-4969-b852-88756f68f226.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/156514701-169831ff-df47-41d0-95eb-9d975e7dc3ca.png)<br>
+
+18)C# program to create a file,check the existence of a file and read the content of the file.<br>
+
+
 
 
 
