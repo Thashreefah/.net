@@ -93,8 +93,8 @@ namespace Exercises<br>
 }
 
 OUTPUT:<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940475/156508153-c7b85057-dc81-4d44-b761-b7b4c901a9e2.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/156508220-20215039-921b-4161-926b-983137ebfdc2.png)<br>
 
 
 8)C# program to print a Binary Triangle.<br>
