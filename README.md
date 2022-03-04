@@ -786,6 +786,47 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156515810-bd47a052-b090-46ac-ae91-13931c1d11c6.png)<br>
 
 19)C# program to perform file comparison.<br>
+using System;<br>
+using System.IO;<br>
+
+namespace Exercises
+{
+
+    class FileRead1
+    {
+        public static void Main()
+        {
+            string file1;
+            string file2;
+            Console.Write("Enter the first file path:");
+            file1 = Console.ReadLine();
+            Console.Write("Enter the second file path:");
+            file2 = Console.ReadLine();
+            if(!File.Exists(file1))
+            {
+                Console.WriteLine("First file does not exist!");
+            }
+            else if (!File.Exists(file2))
+            {
+                Console.WriteLine("Second file does not exist!");
+            }
+            else if (File.ReadAllText(file1) == File.ReadAllText(file2))
+            {
+                Console.WriteLine("Both files contain the same content");
+            }
+            else
+            {
+                Console.WriteLine("Contents of files are not same");
+            }
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156700946-2a502285-3fae-42c4-9f22-540f197652e8.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/156701050-f86e5d4d-0fd7-46b6-bce6-2dafdb0ed42f.png)<br>
+
+20)C# program to Implement IComparable Interface.<br>
 
 
 
