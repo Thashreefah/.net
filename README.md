@@ -936,6 +936,56 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156701877-f1978848-0002-4fb2-8e77-9258d0a26cf3.png)<br>
 
 22)C# program to demonstrate error handling using Try,Catch and Finally block.<br>
+using System;
+
+namespace Exercises<br>
+{
+
+    class ExceptionlHandling
+    {
+        static void Main(string[] args)
+        {
+            Age a = new Age();
+                try
+            {
+                a.displayAge();
+            }
+            catch (AgeIsNegativeException e)
+            {
+                Console.WriteLine("AgeIsNegativeException:{0}", e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Execution of Finally block is done.");
+            }
+        }
+    }
+}
+public class AgeIsNegativeException : Exception
+{
+    public AgeIsNegativeException(string message) : base(message)
+    {
+    }
+}
+public class Age
+{
+    int age = -5;
+    public void displayAge()
+    {
+        if (age < 0)
+        {
+            throw (new AgeIsNegativeException("Age cannot be negative"));
+        }
+        else
+        {
+            Console.WriteLine("Age is:{0}", age);
+        }
+    }
+
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156702246-bb6e0595-7c24-4235-bb91-a891ce5349fc.png)<br>
 
 
 
