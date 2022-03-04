@@ -891,7 +891,51 @@ namespace Exercises
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156701481-fea26415-3fd7-4ed3-8ea0-9e035cf69aac.png)<br>
 
+21)C# program to create Thread Pools.<br>
+using System;<br>
+using System.Threading;<br>
 
+namespace Exercises
+{
+
+    class ThreadPoolProg
+    {
+        public void ThreadFun1(object obj)
+        {
+            int loop = 0;
+            
+            for (loop = 0; loop <= 4; loop++)
+            {
+                Console.WriteLine("Thread1 is executing");
+            }
+        }
+        public void ThreadFun2(object obj)
+        {
+            int loop = 0;
+            
+            for (loop = 0; loop <= 4; loop++)
+            {
+                Console.WriteLine("Thread2 is executing");
+            }
+        }
+        public static void Main()
+        {
+            ThreadPoolProg TP = new ThreadPoolProg();
+            
+            for (int i = 0; i < 2; i++)
+            {
+                ThreadPool.QueueUserWorkItem(new WaitCallback(TP.ThreadFun1));
+                ThreadPool.QueueUserWorkItem(new WaitCallback(TP.ThreadFun2));
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/156701877-f1978848-0002-4fb2-8e77-9258d0a26cf3.png)<br>
+
+22)C# program to demonstrate error handling using Try,Catch and Finally block.<br>
 
 
 
