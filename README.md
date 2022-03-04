@@ -785,6 +785,10 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/156515764-1062ccca-7a33-4ba6-b0c9-61bb952f37e1.png)
 ![image](https://user-images.githubusercontent.com/97940475/156515810-bd47a052-b090-46ac-ae91-13931c1d11c6.png)<br>
 
+19)C# program to perform file comparison.<br>
+
+
+
 
 
 
