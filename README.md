@@ -1077,18 +1077,19 @@ OUTPUT:<br>
 24)<br>
 
 25)<br>
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System;<br>
+using System.Collections.Generic;<br>
+using System.ComponentModel;<br>
+using System.Data;<br>
+using System.Drawing;<br>
+using System.Linq;<br>
+using System.Text;<br>
+using System.Threading.Tasks;<br>
+using System.Windows.Forms;<br>
 
-namespace program2
+namespace program2<br>
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -1135,8 +1136,55 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/158953330-1046c6bc-d31c-4732-a886-db218fc187fa.png)<br>
 
 26)<br>
+using System;<br>
+using System.Collections.Generic;<br>
+using System.ComponentModel;<br>
+using System.Data;<br>
+using System.Drawing;<br>
+using System.Linq;<br>
+using System.Text;<br>
+using System.Threading.Tasks;<br>
+using System.Threading;<br>
+using System.Windows.Forms;<br>
 
+namespace program4<br>
+{
 
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            backgroundWorker1.WorkerReportsProgress = true;
+            backgroundWorker1.RunWorkerAsync();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for(int i=1;i<=100;i++)
+            {
+                Thread.Sleep(50);
+                backgroundWorker1.ReportProgress(i);
+            }
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            progressBar1.Value = e.ProgressPercentage;
+            this.Text = "Progress:" + e.ProgressPercentage.ToString() + "%";        
+        }
+    }
+}
+
+![image](https://user-images.githubusercontent.com/97940475/158954041-32c66614-070c-41af-b7b1-31cf53e42bc7.png)<br>
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/158954157-617a042a-46d7-4fdf-80cb-4f030fd3863b.png)<br>
+
+27)<br>
 
 
 
