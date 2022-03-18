@@ -961,12 +961,14 @@ namespace Exercises<br>
         }
     }
 }
+
 public class AgeIsNegativeException : Exception
 {
     public AgeIsNegativeException(string message) : base(message)
     {
     }
 }
+
 public class Age
 {
     int age = -5;
