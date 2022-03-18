@@ -1,0 +1,15 @@
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.exe
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.deps.json
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.runtimeconfig.json
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.runtimeconfig.dev.json
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.dll
+D:\Thashreefah M(.NET)\program4\bin\Debug\netcoreapp3.1\program4.pdb
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.csprojAssemblyReference.cache
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.Form1.resources
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.csproj.GenerateResource.cache
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.AssemblyInfoInputs.cache
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.AssemblyInfo.cs
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.csproj.CoreCompileInputs.cache
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.dll
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.pdb
+D:\Thashreefah M(.NET)\program4\obj\Debug\netcoreapp3.1\program4.genruntimeconfig.cache
