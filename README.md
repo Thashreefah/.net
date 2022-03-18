@@ -789,7 +789,7 @@ OUTPUT:<br>
 using System;<br>
 using System.IO;<br>
 
-namespace Exercises
+namespace Exercises<br>
 {
 
     class FileRead1
@@ -829,7 +829,7 @@ OUTPUT:<br>
 20)C# program to Implement IComparable Interface.<br>
 using System;<br>
 
-namespace Exercises
+namespace Exercises<br>
 {
 
     class Fraction : IComparable
@@ -895,7 +895,7 @@ OUTPUT:<br>
 using System;<br>
 using System.Threading;<br>
 
-namespace Exercises
+namespace Exercises<br>
 {
 
     class ThreadPoolProg
@@ -964,13 +964,16 @@ namespace Exercises<br>
 
 public class AgeIsNegativeException : Exception
 {
+
     public AgeIsNegativeException(string message) : base(message)
     {
     }
+    
 }
 
 public class Age
 {
+
     int age = -5;
     public void displayAge()
     {
