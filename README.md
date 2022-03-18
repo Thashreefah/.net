@@ -1074,10 +1074,67 @@ namespace program1<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940475/158951852-ebd149b8-05af-415f-93e0-a4cc13e81d26.png)<br>
 
+24)<br>
+
 25)<br>
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
+namespace program2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string inputString, revstr = "";
+            int Length;
+            inputString = textBox1.Text;
+            Length = inputString.Length - 1;
+            while (Length >= 0)
+            {
+                revstr = revstr + inputString[Length];
+                Length--;
+            }
+                MessageBox.Show("Reverse String Is:" + revstr, "Result");
+            }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+                string inputString;
+                inputString = textBox1.Text;
+                MessageBox.Show("The String After Trimming:" + inputString.Trim(), "Result");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string inputString;
+            inputString = textBox1.Text;
+            inputString = inputString.PadLeft(10, '*');
+            inputString = inputString.PadRight(15, '*');
+            MessageBox.Show("String After Padding:" + inputString, "Result");
+        }
+    }
+}
+
+![image](https://user-images.githubusercontent.com/97940475/158953031-fdcb3f62-bd03-4463-8caa-25a849bc8b5d.png)<br>
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940475/158953209-ca6466c9-8e48-4097-ba40-22f3a637fbd8.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/158953271-07447edc-796e-4761-9412-ada9ba54d9a5.png)<br>
+![image](https://user-images.githubusercontent.com/97940475/158953330-1046c6bc-d31c-4732-a886-db218fc187fa.png)<br>
+
+26)<br>
 
 
 
