@@ -1,0 +1,10 @@
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.csprojAssemblyReference.cache
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.Form1.resources
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.Properties.Resources.resources
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.csproj.GenerateResource.cache
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.csproj.CoreCompileInputs.cache
+D:\Thashreefah M(.NET)\program8\bin\Debug\program8.exe.config
+D:\Thashreefah M(.NET)\program8\bin\Debug\program8.exe
+D:\Thashreefah M(.NET)\program8\bin\Debug\program8.pdb
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.exe
+D:\Thashreefah M(.NET)\program8\obj\Debug\program8.pdb
